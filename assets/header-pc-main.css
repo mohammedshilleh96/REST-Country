@@ -1,0 +1,98 @@
+/* The CSS for the header in PC */
+
+/* The header changes between different platforms */
+
+/* This file covers the devices with width > 576px */
+
+.header {
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#logo {
+    width: 20%;
+    cursor: pointer;
+}
+
+#search {
+    width: 60%;
+    justify-content: flex-start;
+}
+
+#search input {
+    width: 50%;
+    height: 50%;
+}
+
+#contact, #about {
+    display: block;
+    height: 100%;
+    padding: 0 30px;
+    line-height: 60px;
+    color: #E5E5E5;
+    font-size: 16px;
+    /* padding-right: 30px; */
+    /* vertical align with table cell*/
+}
+
+#contact:hover, #about:hover {
+    background-color: #555;
+}
+
+/* Search bar CSS */
+
+.input-with-icon input:focus {
+    box-shadow: 0 0 0 3px rgba(0, 132, 255, 1);
+    border-radius: 4px;
+}
+
+.input-with-icon input {
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+
+.input-with-icon input:focus+i {
+    color: rgba(0, 130, 255, 0.7);
+}
+
+/* Media Queries Section */
+
+@media screen and (min-width: 576px) and (max-width: 849px) {
+    #logo {
+        width: 30%;
+    }
+    #search {
+        width: 40%;
+    }
+    #search input {
+        width: 90%;
+        height: 60%;
+    }
+    #contact, #about {
+        width: 15%;
+    }
+}

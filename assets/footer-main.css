@@ -1,0 +1,15 @@
+/* The CSS for the footer */
+/* The footer doesn't change between different platforms */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #363636;
+    position: relative;
+    margin-top: -100px;
+}
+
+.footer span, .footer i {
+    color: #E5E5E5;
+    font-size: 18px;
+}

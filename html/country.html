@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Country</title>
+    <link rel="stylesheet" href="../assets/header-mobile-main.css">
+    <link rel="stylesheet" href="../assets/header-pc-main.css">
+    <link rel="stylesheet" href="../assets/common.css">
+    <link rel="stylesheet" href="../assets/country-main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <script src='../js/common.js'></script>
+
+    <!-- Header -->
+    <div class="header flex-center"></div>
+
+
+    <!-- use this skeleton html -->
+    <div class="main-container">
+
+        <!-- Separator div between header and app -->
+        <div class="separator"></div>
+
+        <!-- Contains side navbar and main -->
+        <div class='app'>
+
+            <!-- Side nav to each countries info -->
+            <aside>
+                <div class='side-nav-container'>
+                    <p class='first-font-style nav-bar-title'>Country Information</p>
+                    <a class='first-font-style' href="#flag">Flag</a>
+                    <a class='first-font-style' href="#name">Name</a>
+                    <a class='first-font-style' href="#codes">Codes</a>
+                    <a class='first-font-style' href="#capital">Capital</a>
+                    <a class='first-font-style' href="#topLevelDomain">Top Level Domain</a>
+                    <a class='first-font-style' href="#region">Geography</a>
+                    <a class='first-font-style' href="#population">Population</a>
+                    <a class='first-font-style' href="#coordinates">Coordinates</a>
+                    <a class='first-font-style' href="#area">Area</a>
+                    <a class='first-font-style' href="#time">Timezones</a>
+                    <a class='first-font-style' href="#currency">Currency</a>
+                    <a class='first-font-style' href="#language">Languages</a>
+                    <a class='first-font-style' href="#cioc">CIOC</a>
+                </div>
+            </aside>
+
+            <!-- Dynamic data goes here -->
+            <div class="content">
+                <div class="flag" id='flag'></div>
+
+                <div class='info-container'>
+                    <div id='name' class="info"></div>
+                    <div id='codes' class="info"></div>
+                    <div id='capital' class="info"></div>
+                    <div id='topLevelDomain' class="info"></div>
+                    <div id='region' class="info"></div>
+                    <div id='population' class="info"></div>
+                    <div id='coordinates' class="info"></div>
+                    <div id='area' class="info"></div>
+                    <div id='time' class="info"></div>
+                    <div id='currency' class="info"></div>
+                    <div id='language' class="info"></div>
+                    <div id='cioc' class="info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <script src="../js/countryMain.js"></script>
+</body>
+
+</html>
