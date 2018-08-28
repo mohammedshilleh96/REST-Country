@@ -3,7 +3,7 @@
 This is a simple website project that displays some information about all countries in the world. This information is fetched 
 from a RESTful API called https://restcountries.eu/. To better understand this project, please watch this demo:
 
-![Demo](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Demo](https://github.com/mohammedshilleh96/REST-Country/blob/master/Demo.gif)
 
 # Note:
 If you want to download the files and try it on your browser, please consider disabling your web security. If you are using chrome 
